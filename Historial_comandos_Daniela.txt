@@ -1,0 +1,31 @@
+cd repogit/TP_AySO/
+man -k net
+sudo mandb
+man -k net
+man -k net | grep "dump traffic"
+man -k net | grep "dump traffic" >> comando_dump_net
+ll
+cat comando_dump_net
+echo "man -k net | grep "dump traffic"" >> comando_dump_net 
+cat comando_dump_net 
+git status
+git add .
+git commit -m “ADD: Comando para Capturar y analizar el tráfico de red ”
+git commit -m "ADD: Comando para Capturar y analizar el trafico de la red"
+git status
+ll
+cat << EOF > README.md 
+Alumno: Daniela
+Division: 313-2
+Turno: TM
+EOF
+
+car README.md 
+cat README.md 
+git status
+git add .
+git commit -m "feat: Añadiendo informacion del alumno al readme"
+history
+history -a
+history
+history -a >> $HOME/.bash_history
